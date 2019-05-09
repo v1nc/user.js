@@ -2,7 +2,7 @@
 ### configuration hardening for Fennec Privacy
 
 ## use case:
-this onfiguration is made for [fennec](https://f-droid.org/en/packages/org.mozilla.fennec_fdroid/) on android. you can use it with any geckoview-based browser, but i highly advise to use [fennec](https://f-droid.org/en/packages/org.mozilla.fennec_fdroid/). It is not intended to use with Tor!
+this onfiguration is made for [fennec](https://f-droid.org/en/packages/org.mozilla.fennec_fdroid/) on android. you can use it with any geckoview-based browser, but i highly advise to use [fennec](https://f-droid.org/en/packages/org.mozilla.fennec_fdroid/). It is not intended to use with tor!
 ## aim:
 * better security
 * more privacy
