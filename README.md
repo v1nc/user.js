@@ -18,4 +18,4 @@ this configuration is inspired by:
 * [OrangeManBad](https://git.nixnet.xyz/OrangeManBad/user.js/raw/branch/master/user.js/)
 * [quindecim](https://github.com/quindecim/fennec_user.js/)
 ## comparison:
-compare differences between user.js files [here](https://v1nc.github.io/)
+compare differences between user.js files [here](https://v1nc.github.io/comparison/)
