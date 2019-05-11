@@ -36,7 +36,14 @@ app to apply and update on android.
 user.js src comparison.
 */
 
-
+user_pref("_user.js.parrot", "https://reckendrees.systems/parrot.png");
+user_pref("accessibility.force_disabled", 1);
+user_pref("alerts.showFavicons", false);
+user_pref("app.normandy.enabled", false);
+user_pref("app.shield.optoutstudies.enabled", false);
+user_pref("app.update.enabled", true);
+user_pref("beacon.enabled", false);
+user_pref("breakpad.reportURL", "");
 user_pref("browser.aboutHomeSnippets.updateUrl", "");
 user_pref("browser.bookmarks.max_backups", 0);
 user_pref("browser.cache.disk.enable", false);
@@ -204,32 +211,7 @@ user_pref("browser.urlbar.trimURLs", false);
 user_pref("browser.urlbar.usepreloadedtopurls.enabled", false);
 user_pref("browser.xul.error_pages.expert_bad_cert", true);
 
-user_pref("camera.control.face_detection.enabled", false);
-user_pref("canvas.capturestream.enabled", false);
-user_pref("captivedetect.canonicalURL", "");
-user_pref("clipboard.autocopy", false);
-user_pref("datareporting.healthreport.service.enabled", false);
-user_pref("datareporting.healthreport.uploadEnabled", false);
-user_pref("datareporting.policy.currentPolicyAcceptedVersion", 0);
-user_pref("datareporting.policy.currentPolicyVersion", 0);
-user_pref("datareporting.policy.dataSubmissionEnabled", false);
-user_pref("datareporting.policy.dataSubmissionPolicyAcceptedVersion", 0);
-user_pref("datareporting.policy.dataSubmissionPolicyBypassNotification", false);
-user_pref("datareporting.policy.dataSubmissionPolicyNotifiedTime", "");
-user_pref("datareporting.policy.firstRunURL", "");
-user_pref("datareporting.policy.minimumPolicyVersion", 0);
-user_pref("datareporting.policy.minimumPolicyVersion.channel-beta", 0);
-user_pref("device.camera.enabled", false);
-user_pref("device.sensors.ambientLight.enabled", false);
-user_pref("device.sensors.enabled", false);
-user_pref("devtools.chrome.enabled", false);
-user_pref("devtools.debugger.force-local", true);
-user_pref("devtools.debugger.remote-enabled", false);
-user_pref("devtools.devices.url", "");
-user_pref("devtools.webide.autoinstallADBExtension", false);
-user_pref("devtools.webide.autoinstallADBHelper", false);
-user_pref("devtools.webide.autoinstallFxdtAdapters", false);
-user_pref("devtools.webide.enabled", false);
+
 user_pref("dom.allow_cut_copy", false);
 user_pref("dom.archivereader.enabled", false);
 user_pref("dom.battery.enabled", false);
