@@ -425,6 +425,11 @@ user_pref("network.predictor.enable-prefetch", false);
 user_pref("network.predictor.enabled", false);
 user_pref("network.prefetch-next", false);
 
+user_pref("network.protocol-handler.expose-all", false);
+user_pref("network.protocol-handler.external.about",false);
+
+user_pref("network.protocol-handler.external.javascript",false);
+
 
 user_pref("network.protocol-handler.external.moz-extension",false);
 user_pref("network.protocol-handler.external.ftp",false);
