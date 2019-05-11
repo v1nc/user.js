@@ -381,6 +381,34 @@ user_pref("media.webspeech.test.fake_recognition_service", false);
 user_pref("middlemouse.contentLoadURL", false);
 user_pref("middlemouse.paste", false);
 
+user_pref("network.IDN_show_punycode", true);
+user_pref("network.allow-experiments", false);
+user_pref("network.auth.subresource-http-auth-allow", 1);
+user_pref("network.captive-portal-service.backoffFactor", "");
+user_pref("network.captive-portal-service.enabled", false);
+user_pref("network.captive-portal-service.maxInterval", 1);
+user_pref("network.captive-portal-service.minInterval", 1);
+user_pref("network.connectivity-service.DNSv4.domain", "");
+user_pref("network.connectivity-service.DNSv6.domain", "");
+user_pref("network.connectivity-service.IPv4.url", "");
+user_pref("network.connectivity-service.IPv6.url", "");
+user_pref("network.connectivity-service.enabled", false);
+user_pref("network.cookie.cookieBehavior", 1);
+user_pref("network.cookie.leave-secure-alone", true);
+user_pref("network.cookie.lifetimePolicy", 2);
+user_pref("network.cookie.same-site.enabled", true);
+user_pref("network.cookie.thirdparty.nonsecureSessionOnly", true);
+user_pref("network.cookie.thirdparty.sessionOnly", true);
+user_pref("network.dns.blockDotOnion", true);
+user_pref("network.dns.disableIPv6", true);
+user_pref("network.dns.disablePrefetch", true);
+user_pref("network.dns.disablePrefetchFromHTTPS", true);
+user_pref("network.dns.localDomains", "");
+user_pref("network.file.disable_unc_paths", true);
+user_pref("network.gio.supported-protocols", "");
+user_pref("network.http.altsvc.enabled", false);
+
+
 user_pref("offline-apps.allow_by_default", false);
 user_pref("pdfjs.disabled", false);
 user_pref("pdfjs.enableWebGL", false);
