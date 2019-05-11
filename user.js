@@ -409,6 +409,27 @@ user_pref("network.gio.supported-protocols", "");
 user_pref("network.http.altsvc.enabled", false);
 
 
+user_pref("network.protocol-handler.expose-all", false);
+user_pref("network.protocol-handler.external.about",false);
+user_pref("network.protocol-handler.external.http",false);
+user_pref("network.protocol-handler.external.https",false);
+user_pref("network.protocol-handler.external.javascript",false);
+user_pref("network.protocol-handler.external.moz-extension",false);
+user_pref("network.protocol-handler.external.ftp",false);
+user_pref("network.protocol-handler.external.file",false);
+user_pref("network.protocol-handler.external.about",false);
+user_pref("network.protocol-handler.external.chrome",false);
+user_pref("network.protocol-handler.external.blob",false);
+user_pref("network.protocol-handler.external.data",false);
+user_pref("network.protocol-handler.expose-all",false);
+user_pref("network.protocol-handler.external.ms-windows-store", false);
+user_pref("network.protocol-handler.warn-external-default", true);
+user_pref("network.proxy.autoconfig_url.include_path", false);
+user_pref("network.trr.bootstrapAddress", "");
+user_pref("network.trr.confirmationNS", "");
+user_pref("network.trr.mode", 0);
+user_pref("network.trr.uri", "");
+
 user_pref("offline-apps.allow_by_default", false);
 user_pref("pdfjs.disabled", false);
 user_pref("pdfjs.enableWebGL", false);
